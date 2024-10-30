@@ -1,5 +1,15 @@
 import { Configuration, PlaidApi, PlaidEnvironments } from 'plaid';
 
+/* 
+const configuration = new Configuration({
+  basePath:PlaidEnvironments.sandbox,
+  baseOptions:{
+    headers:{
+      PLAID_CLIENT_ID'
+    }
+  }
+
+}) */
 const configuration = new Configuration({
   basePath: PlaidEnvironments.sandbox,
   baseOptions: {
